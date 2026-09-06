@@ -4,3 +4,37 @@
   color: #038c7f; /* Teal text color */
   background-color: #01403a; /* Dark teal background color */
 }
+/* Resetting some defaults styles using multiple selectors separated by commas */
+body {
+  background-color: #012626; /* Dark teal body background color */
+}
+h1 {
+  color: #038c7f; /* Teal text color */
+}
+h2 {
+  font-size: 1.5em; /* 1.x the default font size */
+  color: #027368; /* Dark teal color */
+}
+p {
+  font-size: 16px; /* 16px is the default font size */
+  color: #7f8cbd; /* Grayish-blue */
+  margin-bottom: 12px; /* Adding some space below the paragragh */
+}
+p a {
+  color: #f39c12; /* Gold accent */
+  text-decoration: none; /* Removing the underline */
+}
+/* Styling the unodered list */
+ul {
+  list-style-type: none; /* Removing the bullet paoints */
+  margin-left: 20px; /* Indentng the list */
+  margin-bottom: 12px; /* Adding some space below the list */
+}
+ul li {
+  margin-bottom: 5px; /* Adding some space below each list item */
+  color: #7f8c8d; /* Grayish-blue text color */
+}
+/* Styling the unodered list within a div */
+div ul {
+  list-style-type: square; /* Adding the bullet points back */
+}
