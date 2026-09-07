@@ -83,3 +83,18 @@ button {
 button:hover {
   background-color: red; /* Red backgorund color */
 }
+nav {
+  color: black; /* My nav is b=black in color */
+}
+section {
+  color: black; /* My section is black in color */
+}
+main {
+  color: black; /* My main is black in colro */
+}
+footer {
+  color: black; /* My footer is black in color */
+}
+p {
+  color: black; /* My p is black in color */
+}
